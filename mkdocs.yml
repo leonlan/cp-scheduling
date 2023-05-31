@@ -7,7 +7,9 @@ repo_name: leonlan/cp-scheduling
 nav:
     - Home: index.md
     - About: about.md
-    - Models: models.md
+    - 'Models':
+        - Distributed flow shop: models/distributed-flow-shop.md
+        - Storage layers: models/storage-layer.md
     - Notes: notes.md
 
 theme:
