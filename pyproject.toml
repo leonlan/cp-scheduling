@@ -9,15 +9,18 @@ packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9, <3.12"
-docplex = "^2.25.236"
-pre-commit = "^3.2.2"
 numpy = "^1.24.2"
-gurobipy = "^10.0.1"
-ortools = "^9.6.2534"
 matplotlib = "^3.7.1"
 tqdm = "^4.65.0"
+docplex = "^2.25.236"
+gurobipy = "^10.0.1"
+ortools = "^9.6.2534"
 
+[tool.poetry.group.vrp.dependencies]
+vrplib = "^1.1.0"
 
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.2"
 
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.4.3"

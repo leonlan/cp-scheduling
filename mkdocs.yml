@@ -9,6 +9,7 @@ nav:
     - About: about.md
     - Models: models.md
     - Notes: notes.md
+    - VRPTW: vrptw.md
 
 theme:
   name: material
