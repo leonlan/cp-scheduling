@@ -9,6 +9,10 @@ nav:
     - About: about.md
     - Models: models.md
     - Notes: notes.md
+    - Graph coloring:
+      - Problem description: coloring/coloring.md
+      - Greedy coloring: coloring/greedy.md
+      - Constraint programming: coloring/cp.md
 
 theme:
   name: material
